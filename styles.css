@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+	background-color:whitesmoke;
+	font-family: 'Poppins',sans-serif;
+}
+nav{
+	background-color: #aee0fc;
+	height: 90px;
+}
+form{
+	height: 60px;
+}
+
+.title1{
+	font-size: 1.6rem ;
+	padding-top: 2%;
+	padding-left: 15px;
+}
+.title2{
+	text-align: right;
+	font-size: 1.6rem;
+	padding-top: 2%; 
+	padding-left: 100px;
+}
+
+.copy {
+	text-align: center;
+	font-size: 1.5rem;
+	text-transform:capitalize;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+	padding: 10px;
+}
+
+.dataTables_filter{
+	padding-bottom: 10px;
+}
+.dataTables_length{
+	padding-bottom: 10px;
+}
+#preloader{
+	align-content: center;
+	background-size: 15%;
+	background: #fff url(assets/Load.gif) no-repeat center center;
+	height: 100vh;
+	width: 100%;
+	z-index: 100;
+	position: fixed;
+}
+.table-dark{
+	font-size: 1.3rem;
+}
